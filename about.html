@@ -188,10 +188,10 @@
 	          </div>
 	          <div class="pb-md-5 contact-form">
               <form id="contact-form" method="post" action="contact-form-handler.php">
-                <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-                <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-                <textarea name="message" class="form-control" placeholder="message here.." rows="4" required></textarea><br>
-                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                <label for="contact-name"></label><input id="contact-name" name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+                <label for="contact-id"></label><input id="contact-id" name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+                <label for="contact-message"></label><textarea id="contact-message" name="message" class="form-control" placeholder="message here.." rows="4" required></textarea><br>
+                <input id="contact-submit" type="submit" class="form-control submit" value="SEND MESSAGE">
             </form>
             </div>
           </div>
