@@ -9306,6 +9306,18 @@ form .submit:hover {
     border: none;
     color: #5b5b5b !important;
     }
+
+    .ftco-services h1 .hello {
+      font-size: 220%;
+    }
+
+    .ftco-services h1 {
+      font-size: 210%;
+    }
+
+    .ftco-services h3 {
+      font-size: 1.2em;
+    }
 }
 
 .fa-chevron-down {
