@@ -7344,6 +7344,7 @@ h1, h2, h3, h4, h5,
     padding-right: 20px;
     font-weight: 400;
     color: var(--john5);
+    color: #f4f3ee;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link-other {
       font-size: 14px;
@@ -7476,7 +7477,9 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.9rem !important;
       padding-bottom: 0.9rem !important;
-      color: var(--john2) !important; }
+      color: var(--john2) !important;
+      color: #5b5b5b !important;
+    }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #f1b8c4 !important; }
     .ftco-navbar-light.scrolled.awake {
