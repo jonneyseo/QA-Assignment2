@@ -7292,7 +7292,9 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: var(--john1); }
+  color: var(--john1);
+  color: #3d3b3c;
+}
   a:hover {
     text-decoration: none;
     color: var(--john7); }
@@ -9204,6 +9206,7 @@ hr.title{
   border: none; 
   height: 2px; 
   background: var(--john4);
+  background: #bcb8b1;
 }
 
 hr.content{
