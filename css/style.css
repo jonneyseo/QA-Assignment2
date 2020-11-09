@@ -7292,7 +7292,9 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: var(--john1); }
+  color: var(--john1);
+  color: #3d3b3c;
+}
   a:hover {
     text-decoration: none;
     color: var(--john7); }
@@ -7344,6 +7346,7 @@ h1, h2, h3, h4, h5,
     padding-right: 20px;
     font-weight: 400;
     color: var(--john5);
+    color: #f4f3ee;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link-other {
       font-size: 14px;
@@ -7353,6 +7356,7 @@ h1, h2, h3, h4, h5,
       padding-right: 20px;
       font-weight: 400;
       color: var(--john2);
+      color: #5b5b5b;
       opacity: 1 !important;
       }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
@@ -7476,7 +7480,9 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.9rem !important;
       padding-bottom: 0.9rem !important;
-      color: var(--john2) !important; }
+      color: var(--john2) !important;
+      color: #5b5b5b !important;
+    }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #f1b8c4 !important; }
     .ftco-navbar-light.scrolled.awake {
@@ -7537,6 +7543,7 @@ h1, h2, h3, h4, h5,
       letter-spacing: 2px;
       font-size: 15px;
       color: var(--john3);
+      color: #7d7c7a;
       z-index: 1; }
     .hero-wrap .slider-text h3.vr {
       -webkit-writing-mode: vertical-lr;
@@ -7559,6 +7566,7 @@ h1, h2, h3, h4, h5,
       letter-spacing: 2px;
       font-size: 15px;
       color: var(--john3);
+      color: #7d7c7a;
       z-index: 1; }
     @media (max-width: 991.98px) {
       .hero-wrap .slider-text .v, .hero-wrap .slider-text .vr {
@@ -9198,6 +9206,7 @@ hr.title{
   border: none; 
   height: 2px; 
   background: var(--john4);
+  background: #bcb8b1;
 }
 
 hr.content{
@@ -9305,6 +9314,18 @@ form .submit:hover {
     .ftco-navbar-light .navbar-toggler-other {
     border: none;
     color: #5b5b5b !important;
+    }
+
+    .ftco-services h1 .hello {
+      font-size: 220%;
+    }
+
+    .ftco-services h1 {
+      font-size: 210%;
+    }
+
+    .ftco-services h3 {
+      font-size: 1.2em;
     }
 }
 

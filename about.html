@@ -46,7 +46,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light navbar-other" id="ftco-navbar">
 	    <div class="container">
 			  <a class="navbar-brand" href="index.html">
-				  <img src="images/logo2.png" title="John Seo" alt="my name itself is the brand">
+				  <img src="images/logo2.png" title="John Seo" alt="The logo of John Seo">
 			  </a>
 	        <button class="navbar-toggler navbar-toggler-other" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars hamburger-white" aria-hidden="true"></i>
@@ -188,10 +188,10 @@
 	          </div>
 	          <div class="pb-md-5 contact-form">
               <form id="contact-form" method="post" action="contact-form-handler.php">
-                <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-                <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-                <textarea name="message" class="form-control" placeholder="message here.." row="4"s required></textarea><br>
-                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                <label for="contact-name"></label><input id="contact-name" name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+                <label for="contact-id"></label><input id="contact-id" name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+                <label for="contact-message"></label><textarea id="contact-message" name="message" class="form-control" placeholder="message here.." rows="4" required></textarea><br>
+                <input id="contact-submit" type="submit" class="form-control submit" value="SEND MESSAGE">
             </form>
             </div>
           </div>
@@ -244,7 +244,7 @@
     var object = [
 
       {
-        'headline':'HTML5, CSS3, Frameworks  /  80%',
+        'headline':'HTML5, CSS3, Frameworks, WordPress  /  80%',
         'value':8,
         'length':10,
       },
@@ -254,13 +254,13 @@
         'length':10,
       },
       {
-        'headline':'Adobe Photoshop, Illustrator, InDesign  /  80%',
+        'headline':'Graphic Design: Adobe Photoshop, Illustrator, InDesign  /  80%',
         'value':8,
         'length':10,
       },
       {
-        'headline':'Adobe Premiere Pro, After Effect  /  60%',
-        'value':6,
+        'headline':'Media Design: Adobe Premiere Pro, After Effect  /  70%',
+        'value':7,
         'length':10,
       }
     ];
